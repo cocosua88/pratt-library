@@ -21,103 +21,82 @@
     <link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/profile.css">
+
     <script src="scripts/vendor/modernizr.min.js"></script>
 </head>
 
 
 <body>
-    <!-- CALL OUT -->
-    <div class="home-hero-wrap">
-        <div class="container">
-            <div class="hero-unit">
-                <img src="../images/logo_white.png" alt="Enoch Pratt Free Library" width="70" height="70"/>
-                <div class="page-header">
-                    <h1>The Enoch Pratt Free Library<br /><small>Your Library Anytime, Anywhere.<br /></small></h1>
-                </div> <!-- /.page-header -->
-            </div> <!-- /.hero-unit -->
-        </div> <!-- /.container -->
-    </div> <!--home-hero-wrap -->
-    
     <!-- STICKY NAVBAR -->
-    <div class="container" id="above-nav"></div>
-    <div class="container" id="nav-container" data-spy="affix" data-offset-top="460">
-        <div class="navbar navbar-static-top" id="nav">
+    <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="brand" href="#">
                     <img src="images/logo_black.png" width= "40" height="40" alt="Enoch Pratt Free Library"/>
                 </a>
 
                 <ul class="nav site-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <li class="dropdown main">
+                        <a href="#" class="dropdown-toggle main" data-toggle="dropdown">
                             <strong style="display: none;">Site Menu</strong>
-                            <b class="caret"></b>
+                            <span class="caret"></span>             
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu main">
                             <li>
                                 <a href="#">Find Materials</a>
                                 <a href="#">Reseach &amp; Collections</a>
                                 <a href="#">Locations &amp; Hours</a>
                                 <a href="#">Events </a>
-                                <a href="#">Get Started</a>
+                                <a href="#">Get Help</a>
                                 <a href="#">About Us</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
 
-                <!-- search form -->
                 <form class="navbar-form pull-left" data-quick search>
-                    <input type="text" class="search-input span4" placeholder="Search the Catalog" autofocus>
+                    <input type="text" class="search-input span7" placeholder="Search the Catalog" autosave="some_unique_value" name="s" autofocus>
                     <a href="#"><i class="icon-search icon-2x"></i></a>
                 </form>
                 
-                <!-- sign in -->
-                <div class="btn-group">
-                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        Sign in    
+                <div class="btn-group sign-in">
+                    <a class="btn dropdown-toggle sign-in" data-toggle="dropdown" href="#">
+                        SuA Kang
                         <span class="caret"></span>
                     </a>
 
-                    <ul class="dropdown-menu sign-in">
-                        <li class="signin">
-                            <form class="form-horizontal">
-                              <div class="control-group">
-                                <label class="control-label" for="inputEmail"></label>
-                                <div class="controls">
-                                  <input type="text" id="inputEmail" placeholder="Email">
-                              </div>
-                          </div>
-                          <div class="control-group">
-                            <label class="control-label" for="inputPassword"></label>
-                            <div class="controls">
-                              <input type="password" id="inputPassword" placeholder="Password">
-                          </div>
-                      </div>
-                      <div class="control-group">
-                        <div class="controls">
-                          <label class="checkbox">
-                            <input type="checkbox"> Remember me
-                        </label>
-                        <button type="submit" class="btn">Sign in</button>
-                        <a href="#">Sign Up with Library Card</a>
-                    </div>
-                </div>
-            </form>
-        </li>    
-    </ul> <!-- /.dropdown-menu -->
+                    <ul class="dropdown-menu main">
+                        <li>
+                                <a href="#">Profile</a>
+                                <a href="#">My Library</a>
+                                <a href="#">Setting</a>
+                                <a href="#">Sign out</a>
+                        </li>
+                    </ul>
 </div> <!-- /.btn-group -->
-</div> <!-- /.container -->
+</div> <!-- /.container-fluid -->
 </div> <!-- /.navbar-inner -->
 </div> <!-- /.navbar -->
+<!-- CALL OUT -->
 
 
-<div class="container-wrap">     
-    <div class="container">
+    <div class="hero-wrap" style="background-color: black">
+        <div class="container-fluid">
+            <div class="hero-unit">
+                <div class="page-header">
+                    <img src="images/headshot.jpg" width="200" height="200"/>
+                    <h4>SuA Kang</h4>
+                    <p>fsdfsdf</p>
+                </div> <!-- /.page-header -->
+            </div> <!-- /.hero-unit -->
+        </div> <!-- /.container-fluid -->
+    </div> <!--home-hero-wrap -->
+    <div class="container-fluid">
         <div class="row">
-         <!-- ABOUT -->
-         <div class="span12">
+           <!-- ABOUT -->
+           <div class="span12 description">
+
             <h4>Simple ways to learn and explore local community.</h4>
             <p>We are one of the oldest free public library systems in the United States, serving the residents of Baltimore with locations throughout the city, and the residents of Maryland as the State Library Resource Center.</p>
         </div> <!-- /.span12 -->
@@ -127,120 +106,112 @@
 
     <!-- LEARNING -->
     <div class="row">
-        <div class="span12">
-            <h4>Learning from local experts</h4>
+        <div class="span12 description">
+            <h4>Learn from local experts</h4>
             <p>Connect with librarians, teachers in your neighborhood.</p>
         </div> <!-- /.span12 -->
     </div>  <!--  /.row-fluid -->
 
     <div class="row">
-        <div class="span3 learn">
-            <img src="/images/profile3.png" alt="150x150" width= "140" height="140"/>
-            <h5><a href="#">Prepare for Tax Return</a></h5><br />
-            <p>Paul Tweed<br />CPA</p>
-            <button type="button" >Central Branch</button>
+        <div class="span4 learning">
+            <img src="/images/profile3.png" class="profiles" alt="150x150" width= "140" height="140"/>
+            <h5 class="learning"><a href="#" class="learning">Prepare for Tax Return</a></h5><br />
+            <p class="learning">Paul Tweed<br />CPA</p>
+            <button type="button" class="branch">Central Branch</button>
         </div> <!-- /.span4 -->
-        <div class="learn span3">
-            <img src="/images/profile2.png" alt="150x150" width= "140" height="140"/>
-            <h5><a href="#">Poetry Workshop</a></h5><br />
-            <p>Clarinda Harriss<br />Writer</p>
-            <button type="button" >Central Branch</button>
+        <div class="span4 learning">
+            <img src="/images/profile2.png" class="profiles" alt="150x150" width= "140" height="140"/>
+            <h5 class="learning"><a href="#" class="learning">Poetry Workshop</a></h5><br />
+            <p class="learning">Clarinda Harriss<br />Writer</p>
+            <button type="button" class="branch">Central Branch</button>
         </div> <!-- /.span4 -->
-        <div class="learn span3">
-            <img src="/images/profile1.png" alt="150x150" width= "140" height="140"/>
-            <h5><a href="#">Intro to PowerPoint</a></h5><br />
-            <p>Tim Capone<br />Teacher</p>
-            <button type="button" >Orleans Branch</button>
+        <div class="span4 learning">
+            <img src="/images/profile1.png" class="profiles" alt="150x150" width= "140" height="140"/>
+            <h5 class="learning"><a href="#" class="learning">Intro to PowerPoint</a></h5><br />
+            <p class="learning">Tim Capone<br />Teacher</p>
+            <button type="button" class="branch">Orleans Branch</button>
         </div> <!-- /.span4 -->
         <div style="clear:both;"></div>
         
-        <div class="span12">
-            <p><a class="btn btn" href="#">Learn more</a></p>
-        </div> <!-- /.span12 -->
+        <div class="span12 description">
+            <p><a class="btn btn learn-more" href="#">Learn more</a></p>
+        </div> <!-- /.span12 description -->
     </div> <!-- /.row -->
     <div style="clear:both;"></div>
     <hr />
 
-    <!-- THEMES -->
-    <div class="row">
-        <div class="span12">
-            <h4>Explore Themes</h4>
-            <p>Looking at what others reading now.</p>
-        </div>
+<!-- THEMES -->
+<div class="row">
+    <div class="span12 description">
+        <h4>Explore Themes</h4>
+        <p>Reading experience has become more open, and shareable recently with eBooks and social media. Explore popular themes and genre of the books.</p>
     </div>
+</div>
 
-    <div class="row">
-        <div class="span12">
-            <div class="themes span4">
-                    <button type="button" class="theme-button">Valentine's Day<i class="icon-chevron-right"></i></button>
-                    <button type="button" class="theme-button">Easter<i class="icon-chevron-right"></i></button>
-                    <button type="button" class="theme-button">Poetry<i class="icon-chevron-right"></i></button>
+<div class="row">
+    <div class="span12 description">
+        <div class="span3 themes">
+            <p class="theme-content">Not only you can search materials by title and format, you can explore what others find interesting.
             </div>
-            <div class="span4">
-                    <button type="button" class="theme-button">Back to School<i class="icon-chevron-right"></i></button>
-                    <button type="button" class="theme-button">Edgar Allen Poe<i class="icon-chevron-right"></i></button>
-                    <button type="button" class="theme-button">Tax Return<i class="icon-chevron-right"></i></button>
+            <div class="span4 themes">
+                <button type="button" class="theme-button">Valentine's Day<i class="icon-chevron-right"></i></button>
+                <button type="button" class="theme-button">Easter<i class="icon-chevron-right"></i></button>
+                <button type="button" class="theme-button">Poetry<i class="icon-chevron-right"></i></button>
+            </div>
+
+            <div class="span4 themes">
+                <button type="button" class="theme-button">Back to School<i class="icon-chevron-right"></i></button>
+                <button type="button" class="theme-button">Edgar Allen Poe<i class="icon-chevron-right"></i></button>
+                <button type="button" class="theme-button">Tax Return<i class="icon-chevron-right"></i></button>
             </div>
         </div><!-- /.span12 -->
     </div> <!-- row -->
-</div>
-
-<!-- GOOGLE MAPS -->
-<div class="row">
-    <iframe frameborder="0"; scrolling= "no";
-    marginheight= "0"; marginwidth= "0"; src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Enoch+Pratt+Free+Library,+Cathedral+Street,+Baltimore,+MD&amp;aq=0&amp;oq=enoch+pratt+free&amp;sll=39.238934,-76.605327&amp;sspn=0.012315,0.018089&amp;ie=UTF8&amp;hq=Enoch+Pratt+Free+Library,+Cathedral+Street,+Baltimore,+MD&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=11141557049121447512&amp;ll=39.294567,-76.61722&amp;output=embed"></iframe>
-</div>
 
 <!-- FOOTER -->
 <footer class="footer">
-    <div class="row">
-        <div class="span12">
-        </div> <!-- /.span 12 -->
-    </div> <!-- /.row -->
+    <div class="container-fluid">
+        <div class="row links-vertical">
+            <div class="span3 footer">
+                <h5 class="footer">About EPFL</h5>
+                <ul class="footer">
+                    <li class="footer"><a href="profile.html">Researve a Room</a></li>
+                    <li class="footer"><a href="#">Careers</a></li>
+                    <li class="footer"><a href="#">FAQ</a></li>
+                    <li class="footer"><a href="#">Contact Us</a></li>
+                </ul>
+            </div> <!-- /.span3 -->
+            <div class="span3 footer">
+                <h5  class="footer">Catalog</h5>
+                <ul class="footer">
+                    <li class="footer"><a href="#">Media Center</a></li>
+                    <li class="footer"><a href="#">eBooks &amp; Audiobooks</a></li>
+                    <li class="footer"><a href="#">Mobile Apps</a></li>
+                </ul>
+            </div> <!-- /.span3 -->
+            <div class="span3 footer">
+                <h5 class="footer">Terms &amp; Conditions</h5>
+                <ul class="footer">
+                    <li class="footer"><a href="#">Privacy Policy</a></li>
+                    <li class="footer"><a href="#">Rules &amp; Regulations</a></li>
+                    <li class="footer"><a href="#">Using the Internet</a></li>
+                </ul>
+            </div> <!-- /.span3 -->
+            <div class="span3 footer">
+                <h5 class="footer">Stay in touch with us</h5>
+                <form class="input-prepand">
+                    <input class="span3 subscription" type="text" placeholder="Your email address"><br />
+                    <button type="submit" class="btn submit">Submit</button>
+                </form>
+                <h5 class="footer">Follow Us</h5>
+                <div id="social-icons">
+                    <a href="https://twitter.com/" class="social"><img src="/images/32x32_twitter.png" width="48" height="48" alt="Twitter" />Twitter</a><br />
+                    <a href="http://feeds.feedburner.com/" class="social"><img src="/images/32x32_rss.png" width="48" height="48" alt="RSS" />RSS</a><br />
+                    <a href="http://www.facebook.com/"class="social"><img src="/images/32x32_facebook.png" width="48" height="48" alt="Facebook" />Facebook</a>
 
-    <div class="row links-vertical">
-        <div class="span3 footer-list">
-            <h5 class="foot">About EPFL</h5>
-            <ul class="footer-menu">
-                <li class="foot-list"><a href="profile.html">Researve a Room</a></li>
-                <li class="foot-list"><a href="#">Careers</a></li>
-                <li class="foot-list"><a href="#">FAQ</a></li>
-                <li class="foot-list"><a href="#">Contact Us</a></li>
-            </ul>
-        </div> <!-- /.span3 -->
-        <div class="span3 footer-list">
-            <h5 class="foot">Catalog</h5>
-            <ul class="footer-menu">
-                <li class="foot-list"><a href="#">Media Center</a></li>
-                <li class="foot-list"><a href="#">eBooks &amp; Audiobooks</a></li>
-                <li class="foot-list"><a href="#">Mobile Apps</a></li>
-            </ul>
-        </div> <!-- /.span3 -->
-        <div class="span3 footer-list">
-            <h5 class="foot">Terms &amp; Conditions</h5>
-            <ul class="footer-menu">
-                <li class="foot-list"><a href="#">Privacy Policy</a></li>
-                <li class="foot-list"><a href="#">Rules &amp; Regulations</a></li>
-                <li class="foot-list"><a href="#">Using the Internet</a></li>
-            </ul>
-        </div> <!-- /.span3 -->
-        <div class="span3 footer-list">
-            <h5 class="foot">Follow Us</h5>
-            <div id="social-icons">
-                <a href="https://twitter.com/"><img src="/images/32x32_twitter.png" width="48" height="48" alt="Twitter" />Twitter</a><br />
-                <a href="http://feeds.feedburner.com/"><img src="/images/32x32_rss.png" width="48" height="48" alt="RSS" />RSS</a><br />
-                <a href="http://www.facebook.com/"><img src="/images/32x32_facebook.png" width="48" height="48" alt="Facebook" />Facebook</a>
-            <h5>Stay in touch with us</h5>
-            <form class="input-prepand">
-                <input class="span3" type="text" placeholder="Your email address"><br />
-                <button type="submit" class="btn">Submit</button>
-            </form>
+                </div>
             </div>
         </div>
-
-            
-        </div> <!-- /.span2 -->
-</footer>
+    </footer>
 
 
 
@@ -254,7 +225,7 @@
             <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
 
             <!--  Carousel -->   
-           
+
 
 
             <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

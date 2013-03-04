@@ -30,7 +30,7 @@ body {
 	font-color: #534A3E;
 }
 
-.container {
+.container-fluid {
 	max-width: 960px;
 	height: auto;
 	margin: 0 auto;
@@ -48,6 +48,10 @@ h4 {
 	font-size: 1.8rem; 
 	color: #f07057;
 	line-height: 3rem;
+}
+
+h5.title {
+	font-size: 1.4rem;
 }
 
 p {
@@ -75,7 +79,6 @@ p {
 	height: 460px;
 	background-color: #eee;
 	margin: 0 auto;
-	background-image: url('/images/background_2.png');
 	background-repeat: none;
 	z-index: -999;
 }
@@ -363,6 +366,7 @@ a.btn.learn-more:hover {
 
 }
 
+
 //THEMES
 //---------------------------------------
 
@@ -470,6 +474,8 @@ a.social:hover {
 	color: #f07057;
 }
 
+
+
 input.span3.subscription,
 input.span3.subscription:focus {
 	margin-top: 6px;
@@ -497,4 +503,8 @@ button.btn.submit:hover{
 	opacity: 0.3 ease-in;
 	background-color: #f07057;
 	transition: background .20s ease-in-out;
+}
+
+.form.input-prepand {
+	height: 40px;
 }

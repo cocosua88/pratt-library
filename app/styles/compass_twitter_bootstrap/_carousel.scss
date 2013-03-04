@@ -11,7 +11,7 @@
 
 .carousel-inner {
   overflow: hidden;
-  display: block;
+  width: 100%;
   position: relative;
 }
 
@@ -25,13 +25,13 @@
 
   // Account for jankitude on images
   .item > img {
-    display: inline-block;
+    display: block;
     line-height: 1;
   }
 
   .active,
   .next,
-  .prev { display: inline-block; }
+  .prev { display: block; }
 
   .active {
     left: 0;
@@ -52,7 +52,7 @@
   }
   .next.left,
   .prev.right {
-    left: 30%;
+    left: 0;
   }
 
   .active.left {
@@ -64,6 +64,11 @@
 
 }
 
+.thumbnail {
+      outline: none;
+    border: none;
+    background-image: none;
+}
 // Left/right controls for nav
 // ---------------------------
 
@@ -74,13 +79,11 @@
   width: 40px;
   height: 40px;
   margin-top: -20px;
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 100;
   line-height: 30px;
   color: Black;
   text-align: center;
-  background: none;
-  border: none;
   @include opacity(50);
 
   // we can't have this transition here
@@ -98,13 +101,17 @@
 
   // Hover state
   &:hover {
-    color: $white;
+    color: #f07057;
     text-decoration: none;
     @include opacity(90);
   }
 }
 
-
+li.span3.review:focus {
+  outline: none;
+    border: none;
+    background-image: none;
+}
 // Caption for text below images
 // -----------------------------
 
@@ -114,16 +121,15 @@
   right: 0;
   bottom: 0;
   padding: 15px;
+  background: $grayDark;
+  background: rgba(0,0,0,.75);
 }
-.carousel-caption h5,
+.carousel-caption h4,
 .carousel-caption p {
   color: $white;
-  letter-spacing: 0.1rem;
-  text-shadow: 1px 1px #000000;
-  text-transform: uppercase;
   line-height: $baseLineHeight;
 }
-.carousel-caption h5 {
+.carousel-caption h4 {
   margin: 0 0 5px;
 }
 .carousel-caption p {

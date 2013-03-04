@@ -5949,7 +5949,7 @@ a.label:hover, a.badge:hover {
 /* line 12, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel-inner {
   overflow: hidden;
-  display: block;
+  width: 100%;
   position: relative;
 }
 
@@ -5964,14 +5964,14 @@ a.label:hover, a.badge:hover {
 }
 /* line 27, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel .item > img {
-  display: inline-block;
+  display: block;
   line-height: 1;
 }
 /* line 34, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel .active,
 .carousel .next,
 .carousel .prev {
-  display: inline-block;
+  display: block;
 }
 /* line 36, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel .active {
@@ -5995,7 +5995,7 @@ a.label:hover, a.badge:hover {
 /* line 54, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel .next.left,
 .carousel .prev.right {
-  left: 30%;
+  left: 0;
 }
 /* line 58, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel .active.left {
@@ -6006,7 +6006,14 @@ a.label:hover, a.badge:hover {
   left: 100%;
 }
 
-/* line 70, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+/* line 67, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+.thumbnail {
+  outline: none;
+  border: none;
+  background-image: none;
+}
+
+/* line 75, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel-control {
   position: absolute;
   top: 40%;
@@ -6014,54 +6021,58 @@ a.label:hover, a.badge:hover {
   width: 40px;
   height: 40px;
   margin-top: -20px;
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 100;
   line-height: 30px;
   color: Black;
   text-align: center;
-  background: none;
-  border: none;
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
-/* line 94, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+/* line 97, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel-control.right {
   left: auto;
   right: 15px;
 }
-/* line 100, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+/* line 103, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel-control:hover {
-  color: white;
+  color: #f07057;
   text-decoration: none;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
 
-/* line 111, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+/* line 110, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+li.span3.review:focus {
+  outline: none;
+  border: none;
+  background-image: none;
+}
+
+/* line 118, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel-caption {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   padding: 15px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
 }
 
-/* line 119, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
-.carousel-caption h5,
+/* line 128, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+.carousel-caption h4,
 .carousel-caption p {
   color: white;
-  letter-spacing: 0.1rem;
-  text-shadow: 1px 1px black;
-  text-transform: uppercase;
   line-height: 20px;
 }
 
-/* line 126, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
-.carousel-caption h5 {
+/* line 132, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+.carousel-caption h4 {
   margin: 0 0 5px;
 }
 
-/* line 129, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
+/* line 135, ../../app/styles/compass_twitter_bootstrap/_carousel.scss */
 .carousel-caption p {
   margin-bottom: 0;
 }
@@ -6178,7 +6189,7 @@ body {
 }
 
 /* line 33, ../../app/styles/main.scss */
-.container {
+.container-fluid {
   max-width: 960px;
   height: auto;
   margin: 0 auto;
@@ -6201,6 +6212,11 @@ h4 {
 }
 
 /* line 53, ../../app/styles/main.scss */
+h5.title {
+  font-size: 1.4rem;
+}
+
+/* line 57, ../../app/styles/main.scss */
 p {
   font-size: 1rem;
   color: #444135;
@@ -6210,13 +6226,13 @@ p {
   line-height: 2rem;
 }
 
-/* line 62, ../../app/styles/main.scss */
+/* line 66, ../../app/styles/main.scss */
 .span12.description {
   padding: 40px 0;
   text-align: center;
 }
 
-/* line 70, ../../app/styles/main.scss */
+/* line 74, ../../app/styles/main.scss */
 .home-hero-wrap {
   position: fixed;
   width: 100%;
@@ -6225,12 +6241,11 @@ p {
   height: 460px;
   background-color: #eee;
   margin: 0 auto;
-  background-image: url("/images/background_2.png");
   background-repeat: none;
   z-index: -999;
 }
 
-/* line 83, ../../app/styles/main.scss */
+/* line 86, ../../app/styles/main.scss */
 .hero-unit {
   position: relative;
   margin: 50px auto 0;
@@ -6239,7 +6254,7 @@ p {
   width: 75%;
 }
 
-/* line 95, ../../app/styles/main.scss */
+/* line 98, ../../app/styles/main.scss */
 .container-wrap {
   width: 100%;
   background-color: #eeeeee;
@@ -6248,12 +6263,12 @@ p {
   padding: 0;
 }
 
-/* line 103, ../../app/styles/main.scss */
+/* line 106, ../../app/styles/main.scss */
 .page-header {
   border-bottom: 0;
 }
 
-/* line 107, ../../app/styles/main.scss */
+/* line 110, ../../app/styles/main.scss */
 .page-header h1 {
   margin-top: 40px;
   color: #fafafa;
@@ -6263,36 +6278,36 @@ p {
   letter-spacing: 0.1rem;
 }
 
-/* line 116, ../../app/styles/main.scss */
+/* line 119, ../../app/styles/main.scss */
 .page-header small {
   color: #fafafa;
   font-family: "Arvo", sans-serif;
 }
 
-/* line 124, ../../app/styles/main.scss */
+/* line 127, ../../app/styles/main.scss */
 .navbar {
   width: 100%;
   height: 120px;
 }
 
-/* line 129, ../../app/styles/main.scss */
+/* line 132, ../../app/styles/main.scss */
 .navbar.affix-top {
   margin-top: 460px;
 }
 
-/* line 133, ../../app/styles/main.scss */
+/* line 136, ../../app/styles/main.scss */
 .navbar.affix {
   top: 0;
   left: 0;
   z-index: 100;
 }
 
-/* line 139, ../../app/styles/main.scss */
+/* line 142, ../../app/styles/main.scss */
 .navbar .affix-offset {
   margin-top: 460px;
 }
 
-/* line 143, ../../app/styles/main.scss */
+/* line 146, ../../app/styles/main.scss */
 .navbar.stuck {
   position: fixed;
   z-index: 9999;
@@ -6302,7 +6317,7 @@ p {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* line 152, ../../app/styles/main.scss */
+/* line 155, ../../app/styles/main.scss */
 .navbar-inner {
   border-top: solid 8px #f07057;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -6310,27 +6325,27 @@ p {
   height: 100px;
 }
 
-/* line 159, ../../app/styles/main.scss */
+/* line 162, ../../app/styles/main.scss */
 .brand {
   border: 0;
   margin: 20px 0;
   text-decoration: none;
 }
 
-/* line 165, ../../app/styles/main.scss */
+/* line 168, ../../app/styles/main.scss */
 .site-nav {
   padding: 0 15px 0 0;
   height: 80px;
   border-right: 1.5px solid #dddddd;
 }
 
-/* line 171, ../../app/styles/main.scss */
+/* line 174, ../../app/styles/main.scss */
 .dropdown-toggle.main {
   margin: 33px 0 0 80px;
 }
 
 /* nav dropdown list*/
-/* line 178, ../../app/styles/main.scss */
+/* line 181, ../../app/styles/main.scss */
 .dropdown-menu.main,
 .dropdown-menu.main:after,
 .dropdown-menu.main:before {
@@ -6346,7 +6361,7 @@ p {
   border-radius: 0;
 }
 
-/* line 191, ../../app/styles/main.scss */
+/* line 194, ../../app/styles/main.scss */
 .dropdown-menu.main a {
   margin-left: -10px;
   font-size: 1.1rem;
@@ -6359,19 +6374,19 @@ p {
   background-image: none;
 }
 
-/* line 203, ../../app/styles/main.scss */
+/* line 206, ../../app/styles/main.scss */
 .dropdown-menu.main a:hover {
   background-color: #f07057;
   color: #fafafa;
   background-image: none;
 }
 
-/* line 209, ../../app/styles/main.scss */
+/* line 212, ../../app/styles/main.scss */
 .navbar-form {
   border-right: 1.5px solid #dddddd;
   padding: 0 30 0 50px;
 }
-/* line 214, ../../app/styles/main.scss */
+/* line 217, ../../app/styles/main.scss */
 .navbar-form .search-input,
 .navbar-form .search-input:focus {
   background-color: inherit;
@@ -6386,26 +6401,26 @@ p {
   font-size: 1.1rem;
 }
 
-/* line 228, ../../app/styles/main.scss */
+/* line 231, ../../app/styles/main.scss */
 .icon-search {
   color: #4b4c3e;
   text-decoration: none;
   padding-right: 30px;
 }
 
-/* line 234, ../../app/styles/main.scss */
+/* line 237, ../../app/styles/main.scss */
 .icon-search:hover {
   color: #f07057;
 }
 
-/* line 238, ../../app/styles/main.scss */
+/* line 241, ../../app/styles/main.scss */
 .btn-group.sign-in {
   padding-top: 28px;
   float: right;
   border: none;
 }
 
-/* line 246, ../../app/styles/main.scss */
+/* line 249, ../../app/styles/main.scss */
 a.btn.dropdown-toggle.sign-in,
 a.btn.dropdown-toggle.sign-in:hover,
 a.btn.dropdown-toggle.sign-in:visited {
@@ -6418,7 +6433,7 @@ a.btn.dropdown-toggle.sign-in:visited {
   box-shadow: none;
 }
 
-/* line 256, ../../app/styles/main.scss */
+/* line 259, ../../app/styles/main.scss */
 ul.dropdown-menu.sign-in {
   width: 310px;
   position: absolute;
@@ -6436,17 +6451,17 @@ ul.dropdown-menu.sign-in {
   border-radius: 0;
 }
 
-/* line 273, ../../app/styles/main.scss */
+/* line 276, ../../app/styles/main.scss */
 .sign-in {
   margin: 40px 0 0 -80px;
 }
 
-/* line 277, ../../app/styles/main.scss */
+/* line 280, ../../app/styles/main.scss */
 .checkbox {
   margin: 0 20px 0 -40px;
 }
 
-/* line 282, ../../app/styles/main.scss */
+/* line 285, ../../app/styles/main.scss */
 #inputPassword,
 #inputEmail {
   width: 200px;
@@ -6454,7 +6469,7 @@ ul.dropdown-menu.sign-in {
   margin-left: -40px;
 }
 
-/* line 291, ../../app/styles/main.scss */
+/* line 294, ../../app/styles/main.scss */
 .span4.learning {
   text-align: center;
   padding: 30px 30px 0 30px;
@@ -6464,13 +6479,13 @@ ul.dropdown-menu.sign-in {
   margin-left: 0px;
 }
 
-/* line 300, ../../app/styles/main.scss */
+/* line 303, ../../app/styles/main.scss */
 .span4.learning:hover {
   background: #fafafa;
   transition: background 0.2s ease-in-out;
 }
 
-/* line 305, ../../app/styles/main.scss */
+/* line 308, ../../app/styles/main.scss */
 a.learning {
   color: #f07057;
   padding-top: 30px;
@@ -6478,14 +6493,14 @@ a.learning {
   font-family: "Arvo" sans-serif;
 }
 
-/* line 312, ../../app/styles/main.scss */
+/* line 315, ../../app/styles/main.scss */
 a.learning:hover {
   padding-top: 4px;
   color: #534A3E;
   text-decoration: none;
 }
 
-/* line 318, ../../app/styles/main.scss */
+/* line 321, ../../app/styles/main.scss */
 p.learning {
   font-size: 1rem;
   color: #8e8e8e;
@@ -6494,7 +6509,7 @@ p.learning {
   padding-bottom: 10px;
 }
 
-/* line 326, ../../app/styles/main.scss */
+/* line 329, ../../app/styles/main.scss */
 button.branch {
   color: #fff;
   padding: 10px 20px;
@@ -6504,7 +6519,7 @@ button.branch {
   font-family: "Asap", sans-serif;
 }
 
-/* line 336, ../../app/styles/main.scss */
+/* line 339, ../../app/styles/main.scss */
 button.branch:focus,
 button.branch:hover {
   outline: none;
@@ -6513,7 +6528,7 @@ button.branch:hover {
   transition: background 0.2s ease-in-out;
 }
 
-/* line 343, ../../app/styles/main.scss */
+/* line 346, ../../app/styles/main.scss */
 a.btn.learn-more {
   color: #fff;
   font-size: 1.4rem;
@@ -6531,20 +6546,20 @@ a.btn.learn-more {
   box-shadow: none;
 }
 
-/* line 361, ../../app/styles/main.scss */
+/* line 364, ../../app/styles/main.scss */
 a.btn.learn-more:visited,
 a.btn.learn-more:hover {
   transition: all 2s ease-in;
 }
 
-/* line 369, ../../app/styles/main.scss */
+/* line 373, ../../app/styles/main.scss */
 p.theme-content {
   font-size: 1rem;
   line-height: 1.7rem;
   text-align: left;
 }
 
-/* line 375, ../../app/styles/main.scss */
+/* line 379, ../../app/styles/main.scss */
 button.theme-button {
   width: 250px;
   height: 40px;
@@ -6561,14 +6576,14 @@ button.theme-button {
   padding-right: 4px;
 }
 
-/* line 391, ../../app/styles/main.scss */
+/* line 395, ../../app/styles/main.scss */
 button.theme-button {
   border: none;
   box-sizing: none;
   padding: 10px;
 }
 
-/* line 397, ../../app/styles/main.scss */
+/* line 401, ../../app/styles/main.scss */
 button.theme-button:hover {
   color: #8e8e8e;
   padding: 10px;
@@ -6576,13 +6591,13 @@ button.theme-button:hover {
   border: none;
 }
 
-/* line 405, ../../app/styles/main.scss */
+/* line 409, ../../app/styles/main.scss */
 .icon-chevron-right {
   padding: 5px 5px 0 0;
   float: right;
 }
 
-/* line 413, ../../app/styles/main.scss */
+/* line 417, ../../app/styles/main.scss */
 iframe {
   width: 100%;
   height: 650px;
@@ -6590,18 +6605,18 @@ iframe {
   position: relative;
 }
 
-/* line 424, ../../app/styles/main.scss */
+/* line 428, ../../app/styles/main.scss */
 footer {
   width: 100%;
   background-color: #8e8e8e;
 }
 
-/* line 429, ../../app/styles/main.scss */
+/* line 433, ../../app/styles/main.scss */
 .row.links-vertical {
   margin: 40px 0;
 }
 
-/* line 433, ../../app/styles/main.scss */
+/* line 437, ../../app/styles/main.scss */
 .span3.footer {
   margin: 0;
   color: #f07057;
@@ -6610,7 +6625,7 @@ footer {
   float: left;
 }
 
-/* line 441, ../../app/styles/main.scss */
+/* line 445, ../../app/styles/main.scss */
 h5.footer {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -6618,12 +6633,12 @@ h5.footer {
   color: #444135;
 }
 
-/* line 448, ../../app/styles/main.scss */
+/* line 452, ../../app/styles/main.scss */
 ul.footer {
   list-style-type: none;
 }
 
-/* line 452, ../../app/styles/main.scss */
+/* line 456, ../../app/styles/main.scss */
 li.footer a {
   font-size: 0.9rem;
   margin-left: -25px;
@@ -6632,23 +6647,23 @@ li.footer a {
   color: #F7F5F4;
 }
 
-/* line 460, ../../app/styles/main.scss */
+/* line 464, ../../app/styles/main.scss */
 li.footer a:hover {
   color: #f07057;
 }
 
-/* line 464, ../../app/styles/main.scss */
+/* line 468, ../../app/styles/main.scss */
 a.social {
   text-decoration: none;
   color: #F7F5F4;
 }
 
-/* line 469, ../../app/styles/main.scss */
+/* line 473, ../../app/styles/main.scss */
 a.social:hover {
   color: #f07057;
 }
 
-/* line 474, ../../app/styles/main.scss */
+/* line 480, ../../app/styles/main.scss */
 input.span3.subscription,
 input.span3.subscription:focus {
   margin-top: 6px;
@@ -6658,7 +6673,7 @@ input.span3.subscription:focus {
   border: none;
 }
 
-/* line 483, ../../app/styles/main.scss */
+/* line 489, ../../app/styles/main.scss */
 button.btn.submit {
   padding: 5px 5px;
   border: none;
@@ -6671,10 +6686,15 @@ button.btn.submit {
   font-family: "Asap", sans-serif;
 }
 
-/* line 495, ../../app/styles/main.scss */
+/* line 501, ../../app/styles/main.scss */
 button.btn.submit:hover {
   outline: none;
   opacity: 0.3 ease-in;
   background-color: #f07057;
   transition: background 0.2s ease-in-out;
+}
+
+/* line 508, ../../app/styles/main.scss */
+.form.input-prepand {
+  height: 40px;
 }
