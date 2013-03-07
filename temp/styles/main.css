@@ -6213,14 +6213,6 @@ hr {
 }
 
 /* line 51, ../../app/styles/main.scss */
-h4 {
-  font-family: "Asap", sans-serif;
-  font-size: 1.6rem;
-  color: #f07057;
-  line-height: 3rem;
-}
-
-/* line 58, ../../app/styles/main.scss */
 h3 {
   margin: 10px 10px 0 10px;
   color: #fff;
@@ -6229,23 +6221,45 @@ h3 {
   color: #fff;
 }
 
-/* line 65, ../../app/styles/main.scss */
+/* line 59, ../../app/styles/main.scss */
+h4 {
+  font-family: "Asap", sans-serif;
+  font-size: 1.6rem;
+  color: #f07057;
+  line-height: 1.6rem;
+}
+
+/* line 66, ../../app/styles/main.scss */
+h2 {
+  font-family: "Arvo", sans-serf;
+  color: #4b4c3e;
+  font-size: 1.2rem;
+}
+
+/* line 74, ../../app/styles/main.scss */
+h6 {
+  font-family: "Asap", sans-serif;
+  font-size: 0.9rem;
+  color: #4b4c3e;
+}
+
+/* line 80, ../../app/styles/main.scss */
 p {
   font-size: 1rem;
   color: #444135;
   font-family: "Arvo", sans-serif;
-  max-width: 600px;
+  max-width: 70%;
   margin: auto;
-  line-height: 2rem;
+  line-height: 1.8rem;
 }
 
-/* line 74, ../../app/styles/main.scss */
+/* line 89, ../../app/styles/main.scss */
 .span12.description {
   padding: 40px 0;
   text-align: center;
 }
 
-/* line 82, ../../app/styles/main.scss */
+/* line 97, ../../app/styles/main.scss */
 .home-hero-wrap {
   position: fixed;
   width: 100%;
@@ -6258,7 +6272,7 @@ p {
   z-index: -999;
 }
 
-/* line 94, ../../app/styles/main.scss */
+/* line 109, ../../app/styles/main.scss */
 .hero-unit {
   position: relative;
   margin: 50px auto 0;
@@ -6267,7 +6281,7 @@ p {
   width: 75%;
 }
 
-/* line 106, ../../app/styles/main.scss */
+/* line 121, ../../app/styles/main.scss */
 .container-wrap {
   width: 100%;
   background-color: #eeeeee;
@@ -6276,12 +6290,12 @@ p {
   padding-bottom: 40px;
 }
 
-/* line 114, ../../app/styles/main.scss */
+/* line 129, ../../app/styles/main.scss */
 .page-header {
   border-bottom: 0;
 }
 
-/* line 118, ../../app/styles/main.scss */
+/* line 133, ../../app/styles/main.scss */
 .page-header h1 {
   margin-top: 40px;
   color: #fafafa;
@@ -6291,36 +6305,36 @@ p {
   letter-spacing: 0.1rem;
 }
 
-/* line 127, ../../app/styles/main.scss */
+/* line 142, ../../app/styles/main.scss */
 .page-header small {
   color: #fafafa;
   font-family: "Arvo", sans-serif;
 }
 
-/* line 135, ../../app/styles/main.scss */
+/* line 150, ../../app/styles/main.scss */
 .navbar {
   width: 100%;
   height: 120px;
 }
 
-/* line 140, ../../app/styles/main.scss */
+/* line 155, ../../app/styles/main.scss */
 .navbar.affix-top {
   margin-top: 460px;
 }
 
-/* line 144, ../../app/styles/main.scss */
+/* line 159, ../../app/styles/main.scss */
 .navbar.affix {
   top: 0;
   left: 0;
   z-index: 100;
 }
 
-/* line 150, ../../app/styles/main.scss */
+/* line 165, ../../app/styles/main.scss */
 .navbar .affix-offset {
   margin-top: 460px;
 }
 
-/* line 154, ../../app/styles/main.scss */
+/* line 169, ../../app/styles/main.scss */
 .navbar.stuck {
   position: fixed;
   z-index: 9999;
@@ -6330,7 +6344,7 @@ p {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* line 163, ../../app/styles/main.scss */
+/* line 178, ../../app/styles/main.scss */
 .navbar-inner {
   border-top: solid 8px #f07057;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -6338,33 +6352,33 @@ p {
   height: 100px;
 }
 
-/* line 170, ../../app/styles/main.scss */
+/* line 185, ../../app/styles/main.scss */
 .brand {
   border: 0;
   margin: 20px 0;
   text-decoration: none;
 }
 
-/* line 176, ../../app/styles/main.scss */
+/* line 191, ../../app/styles/main.scss */
 .site-nav {
   padding: 0 15px 0 0;
   height: 80px;
   border-right: 1.5px solid #dddddd;
 }
 
-/* line 182, ../../app/styles/main.scss */
+/* line 197, ../../app/styles/main.scss */
 .dropdown-toggle.main {
   margin: 33px 0 0 80px;
 }
 
 /* nav dropdown list*/
-/* line 188, ../../app/styles/main.scss */
+/* line 203, ../../app/styles/main.scss */
 .dropdown-menu.main:after,
 .dropdown-menu.main:before {
   display: none !important;
 }
 
-/* line 192, ../../app/styles/main.scss */
+/* line 207, ../../app/styles/main.scss */
 .dropdown-menu.main {
   padding: 0;
   margin: 28px 0 0 -50px;
@@ -6378,7 +6392,7 @@ p {
   border-radius: 0;
 }
 
-/* line 205, ../../app/styles/main.scss */
+/* line 220, ../../app/styles/main.scss */
 .dropdown-menu.main a {
   margin-left: 0;
   font-size: 1.1rem;
@@ -6391,19 +6405,19 @@ p {
   background-image: none;
 }
 
-/* line 217, ../../app/styles/main.scss */
+/* line 232, ../../app/styles/main.scss */
 .dropdown-menu.main a:hover {
   background-color: #f07057;
   color: #fafafa;
   background-image: none;
 }
 
-/* line 223, ../../app/styles/main.scss */
+/* line 238, ../../app/styles/main.scss */
 .navbar-form {
   border-right: 1.5px solid #dddddd;
   padding: 0 30 0 50px;
 }
-/* line 228, ../../app/styles/main.scss */
+/* line 243, ../../app/styles/main.scss */
 .navbar-form .search-input,
 .navbar-form .search-input:focus {
   background-color: inherit;
@@ -6418,30 +6432,29 @@ p {
   font-size: 1.1rem;
 }
 
-/* line 242, ../../app/styles/main.scss */
+/* line 257, ../../app/styles/main.scss */
 .icon-search {
   color: #4b4c3e;
   text-decoration: none;
   padding-right: 30px;
 }
 
-/* line 248, ../../app/styles/main.scss */
+/* line 263, ../../app/styles/main.scss */
 .icon-search:hover {
   color: #f07057;
 }
 
-/* line 252, ../../app/styles/main.scss */
+/* line 267, ../../app/styles/main.scss */
 .btn-group.sign-in {
   padding-top: 28px;
-  float: right;
   border: none;
 }
 
-/* line 258, ../../app/styles/main.scss */
+/* line 272, ../../app/styles/main.scss */
 .controls.button {
   position: relative;
 }
-/* line 261, ../../app/styles/main.scss */
+/* line 275, ../../app/styles/main.scss */
 .controls.button button.btn.signin {
   margin: 10px 0 0 -40px;
   border: none;
@@ -6453,7 +6466,7 @@ p {
   font-family: "Asap", sans-serif;
 }
 
-/* line 277, ../../app/styles/main.scss */
+/* line 291, ../../app/styles/main.scss */
 a.btn.dropdown-toggle.sign-in,
 a.btn.dropdown-toggle.sign-in:hover,
 a.btn.dropdown-toggle.sign-in:visited {
@@ -6466,7 +6479,7 @@ a.btn.dropdown-toggle.sign-in:visited {
   box-shadow: none;
 }
 
-/* line 287, ../../app/styles/main.scss */
+/* line 301, ../../app/styles/main.scss */
 ul.dropdown-menu.sign-in {
   width: 310px;
   position: absolute;
@@ -6484,17 +6497,17 @@ ul.dropdown-menu.sign-in {
   border-radius: 0;
 }
 
-/* line 304, ../../app/styles/main.scss */
+/* line 318, ../../app/styles/main.scss */
 .sign-in {
   margin: 40px 0 0 -80px;
 }
 
-/* line 308, ../../app/styles/main.scss */
+/* line 322, ../../app/styles/main.scss */
 .checkbox {
   margin: 0 20px 0 -40px;
 }
 
-/* line 313, ../../app/styles/main.scss */
+/* line 327, ../../app/styles/main.scss */
 #inputPassword,
 #inputEmail {
   width: 200px;
@@ -6502,29 +6515,28 @@ ul.dropdown-menu.sign-in {
   margin-left: -40px;
 }
 
-/* line 322, ../../app/styles/main.scss */
+/* line 336, ../../app/styles/main.scss */
 .span4.learning {
   text-align: center;
   padding: 40px 30px 40px 30px;
-  float: left;
   width: 280px;
   margin-right: 20px;
   margin-left: 20px;
   height: 390px;
 }
 
-/* line 332, ../../app/styles/main.scss */
+/* line 345, ../../app/styles/main.scss */
 .span4.learning:hover {
   background: #fafafa;
   transition: background 0.2s ease-in-out;
 }
 
-/* line 337, ../../app/styles/main.scss */
+/* line 350, ../../app/styles/main.scss */
 .span4.learing:last-child {
   float: right;
 }
 
-/* line 341, ../../app/styles/main.scss */
+/* line 354, ../../app/styles/main.scss */
 a.learning {
   color: #f07057;
   padding-top: 30px;
@@ -6532,14 +6544,14 @@ a.learning {
   font-family: "Arvo" sans-serif;
 }
 
-/* line 348, ../../app/styles/main.scss */
+/* line 361, ../../app/styles/main.scss */
 a.learning:hover {
   padding-top: 4px;
   color: #534A3E;
   text-decoration: none;
 }
 
-/* line 354, ../../app/styles/main.scss */
+/* line 367, ../../app/styles/main.scss */
 p.learning {
   font-size: 1rem;
   color: #8e8e8e;
@@ -6548,7 +6560,7 @@ p.learning {
   padding-bottom: 10px;
 }
 
-/* line 362, ../../app/styles/main.scss */
+/* line 375, ../../app/styles/main.scss */
 button.branch {
   color: #fff;
   padding: 10px 20px;
@@ -6558,7 +6570,7 @@ button.branch {
   font-family: "Asap", sans-serif;
 }
 
-/* line 372, ../../app/styles/main.scss */
+/* line 385, ../../app/styles/main.scss */
 button.branch:focus,
 button.branch:hover {
   outline: none;
@@ -6567,7 +6579,7 @@ button.branch:hover {
   transition: background 0.2s ease-in-out;
 }
 
-/* line 379, ../../app/styles/main.scss */
+/* line 392, ../../app/styles/main.scss */
 a.btn.learn-more {
   color: #fff;
   font-size: 1.4rem;
@@ -6585,20 +6597,20 @@ a.btn.learn-more {
   box-shadow: none;
 }
 
-/* line 397, ../../app/styles/main.scss */
+/* line 410, ../../app/styles/main.scss */
 a.btn.learn-more:visited,
 a.btn.learn-more:hover {
   transition: all 2s ease-in;
 }
 
-/* line 406, ../../app/styles/main.scss */
+/* line 419, ../../app/styles/main.scss */
 .span3.themes {
   font-size: 1rem;
   line-height: 1.7rem;
   text-align: left;
 }
 
-/* line 413, ../../app/styles/main.scss */
+/* line 426, ../../app/styles/main.scss */
 button.theme-button {
   width: 250px;
   height: 40px;
@@ -6615,14 +6627,14 @@ button.theme-button {
   padding-right: 4px;
 }
 
-/* line 429, ../../app/styles/main.scss */
+/* line 442, ../../app/styles/main.scss */
 button.theme-button {
   border: none;
   box-sizing: none;
   padding: 10px;
 }
 
-/* line 435, ../../app/styles/main.scss */
+/* line 448, ../../app/styles/main.scss */
 button.theme-button:hover {
   color: #8e8e8e;
   padding: 10px;
@@ -6630,13 +6642,12 @@ button.theme-button:hover {
   border: none;
 }
 
-/* line 443, ../../app/styles/main.scss */
+/* line 456, ../../app/styles/main.scss */
 .icon-chevron-right {
   padding: 5px 5px 0 0;
-  float: right;
 }
 
-/* line 451, ../../app/styles/main.scss */
+/* line 463, ../../app/styles/main.scss */
 iframe {
   width: 100%;
   height: 650px;
@@ -6648,28 +6659,27 @@ iframe {
   scrolling: no;
 }
 
-/* line 466, ../../app/styles/main.scss */
+/* line 478, ../../app/styles/main.scss */
 footer {
   width: 100%;
   background-color: #8e8e8e;
   padding: 40px 0;
 }
 
-/* line 472, ../../app/styles/main.scss */
+/* line 484, ../../app/styles/main.scss */
 .row.links-vertical {
   margin: 40px 0;
 }
 
-/* line 476, ../../app/styles/main.scss */
+/* line 488, ../../app/styles/main.scss */
 .span3.footer {
   margin: 0;
   color: #f07057;
   font-family: "Asap", sans-serif;
   position: relative;
-  float: left;
 }
 
-/* line 484, ../../app/styles/main.scss */
+/* line 496, ../../app/styles/main.scss */
 h5.footer {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -6677,12 +6687,12 @@ h5.footer {
   color: #444135;
 }
 
-/* line 491, ../../app/styles/main.scss */
+/* line 504, ../../app/styles/main.scss */
 ul.footer {
   list-style-type: none;
 }
 
-/* line 495, ../../app/styles/main.scss */
+/* line 508, ../../app/styles/main.scss */
 li.footer a {
   font-size: 0.9rem;
   margin-left: -25px;
@@ -6691,23 +6701,23 @@ li.footer a {
   color: #F7F5F4;
 }
 
-/* line 503, ../../app/styles/main.scss */
+/* line 516, ../../app/styles/main.scss */
 li.footer a:hover {
   color: #f07057;
 }
 
-/* line 507, ../../app/styles/main.scss */
+/* line 520, ../../app/styles/main.scss */
 a.social {
   text-decoration: none;
   color: #F7F5F4;
 }
 
-/* line 512, ../../app/styles/main.scss */
+/* line 525, ../../app/styles/main.scss */
 a.social:hover {
   color: #f07057;
 }
 
-/* line 519, ../../app/styles/main.scss */
+/* line 532, ../../app/styles/main.scss */
 input.span3.subscription,
 input.span3.subscription:focus {
   margin-top: 6px;
@@ -6718,7 +6728,7 @@ input.span3.subscription:focus {
   border: none;
 }
 
-/* line 528, ../../app/styles/main.scss */
+/* line 541, ../../app/styles/main.scss */
 button.btn.submit {
   border: none;
   margin-top: 10px;
@@ -6733,7 +6743,7 @@ button.btn.submit {
   font-family: "Asap", sans-serif;
 }
 
-/* line 542, ../../app/styles/main.scss */
+/* line 555, ../../app/styles/main.scss */
 button.btn.submit:hover {
   outline: none;
   opacity: 0.3 ease-in;
@@ -6741,7 +6751,7 @@ button.btn.submit:hover {
   transition: background 0.2s ease-in-out;
 }
 
-/* line 549, ../../app/styles/main.scss */
+/* line 562, ../../app/styles/main.scss */
 .form.input-prepand {
   height: 80px;
 }

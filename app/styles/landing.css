@@ -56,6 +56,25 @@ a.title {
 }
 
 
+
+.span3.result {
+	margin-bottom: 50px;
+}
+.sign-in {
+	margin: 40px 0 0 -80px;
+}
+
+.checkbox {
+	margin: 0 20px 0 -40px;
+}
+
+#inputPassword,
+#inputEmail {
+	width: 200px;
+	display: inline-block;
+	margin-left: -40px;
+}
+
 //STICKY NAVBAR
 //---------------------------------------
 
@@ -68,15 +87,6 @@ a.title {
 	border-top: solid 8px #f07057;
 }
 
-.captionfull .boxcaption {  
-    top: 260;  
-    left: 0;  
-}  
-.caption .boxcaption {  
-    top: 220;  
-    left: 0;  
-}  
-
 .navbar-inner {
 	border-top: solid 8px #f07057;
 	box-shadow: 0 1px 4px rgba(0,0,0,0.3);
@@ -88,27 +98,6 @@ a.title {
 	border: 0;
 	margin: 20px 0;
 	text-decoration: none;
-}
-
-button.more {
-	width: 70%;
-	height: 30px;
-	margin-left: -38px;
-	color: #8e8e8e;
-	padding: 10px 20px;
-	border: none;
-	background-color: #d0d0c6;
-	box-sizing: content-box;
-	font-family: 'Asap', sans-serif;
-}
-
-button.more:focus,
-button.more:hover{
-	outline: none;
-	background-color: #d0d0c6;
-	opacity: 0.3 ease-in;
-	color: #434337;
-	transition: background .20s ease-in-out;
 }
 
 .site-nav {
@@ -129,7 +118,7 @@ button.more:hover{
 
 .dropdown-menu.main {
     padding: 0;
-    margin: 28px 0 0 -50px;
+    margin: 28px 0 0 -80px;
     outline: none;
     background-color: #fafafa;
     border-left: none;
@@ -224,6 +213,24 @@ button.more:hover{
 	color: #f07057;
 }
 
+.btn-group.sign-in {
+	padding-top: 28px;
+	float: right;
+	border: none;
+}
+
+a.btn.dropdown-toggle.sign-in,
+a.btn.dropdown-toggle.sign-in:hover,
+a.btn.dropdown-toggle.sign-in:visited {
+	font-size: 1.1rem;
+	font-family: 'Arvo';
+	font-weight: 400;
+	background-color: inherit;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+
 ul.dropdown-menu.sign-in {
 	width: 310px;
 	position: absolute;
@@ -241,9 +248,6 @@ ul.dropdown-menu.sign-in {
 	border-radius: 0;
 }
 
-.span3.result {
-	margin-bottom: 50px;
-}
 .sign-in {
 	margin: 40px 0 0 -80px;
 }
@@ -259,11 +263,13 @@ ul.dropdown-menu.sign-in {
 	margin-left: -40px;
 }
 
+//--------------------------------
+
 .advanced-search {
 	margin-top: 100px;
 	width: 100%;
 	background-color: #d0d0c6;
-	height: 350px;
+	height: 280px;
 }
 
 input.subscription,
@@ -276,3 +282,36 @@ input.subscription:focus {
 	border: none;
 }
 
+.row-fluid.search-result {
+	background-color: #d0d0c6;
+	width: 100%;
+	margin-top: 110px;
+}
+
+.container.result {
+	height: 100px;
+}
+
+.container-fluid.landing {
+	padding-top: 50px;
+}
+.captionfull .boxcaption {  
+    top: 260;  
+    left: 0;  
+}  
+.caption .boxcaption {  
+    top: 220;  
+    left: 0;  
+}  
+
+button.more {
+	width: 70%;
+	height: 30px;
+	margin-left: -38px;
+	color: #8e8e8e;
+	padding: 10px 20px;
+	border: none;
+	background-color: #d0d0c6;
+	box-sizing: content-box;
+	font-family: 'Asap', sans-serif;
+}
