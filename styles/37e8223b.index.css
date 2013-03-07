@@ -1,0 +1,220 @@
+@import "compass_twitter_bootstrap";
+
+//CALL OUT 
+//----------------
+
+.home-hero-wrap {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 500px;
+	background-color: #f2f2e8;
+	margin: 0 auto;
+	background-image: url('/images/6cf0830f.background_2.png');
+	background-repeat: none;
+	z-index: -99999;
+}
+
+.hero-unit {
+	background-color: #f2f2e8;
+	position: relative;
+	margin: 30px auto 0;
+	text-align: center;
+	background-color: inherit;
+	width: 75%;
+	
+	h1 {
+		margin-top: 40px;
+		text-transform: uppercase;
+		color: #fff;
+		font-family: 'LeagueGothicRegular';
+		font-size: 4.8rem;
+		line-height: 5rem;
+		letter-spacing: 0.3rem;
+	}
+}
+
+.hero-unit img {
+	max-width: 100%;
+	height: auto;
+	width: 70px;
+	display: inline-block;
+}
+
+
+//STICKY NAVBAR
+//----------------
+
+.navbar {
+	width: 100%;
+	
+}
+
+.navbar-inner {
+	border-top: solid 8px #f07057;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+	background-image: none;
+}
+
+.navbar.affix-top{
+	margin-top: 470px;
+}
+
+.navbar .affix-offset {
+	margin-top: 470px;
+}
+
+.brand {
+	overflow: hidden;
+	border: 0;
+	margin: 20px 0;
+}
+.brand a {
+	display: block;
+	text-decoration: none;
+	border: 0;
+}
+
+.brand:hover {
+	transition: background-position 0.1s linear;
+}
+
+.site-nav {
+	padding-right: 15px;
+	height: 100px;
+	border-right: 1.5px solid #ddd;
+}
+
+.dropdown-toggle {
+	margin: 30px 5px 0 70px;
+
+}
+
+.navbar.stuck {
+	position: fixed;
+	z-index: 999;
+	margin: 0 auto;
+	top: 0;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.nav-collapse {
+	
+	.navbar-form{
+			padding-right: 150px;
+			border-right: 1.5px solid #ddd;
+
+		.span4 {
+			margin: 0 0 0 130px;
+			padding-top: 15px;
+			background-color: inherit;
+			border: none;
+			padding: 5px 5px;
+			font-family: 'Arvo', sans-serif;
+			font-weight: 400;
+			height: 85px;
+			box-shadow: none;
+			font-size: 20px;			
+		}
+		
+		.span4:focus {
+			background-color: inherit;
+			border: none;
+			height: 85px;
+			box-shadow: none;
+			font-size: 20px;
+			color: #bbbb;
+		}
+
+		a i {
+			color: #4b4c3e;
+			text-decoration: none;
+		}
+
+		a i:hover {
+			color: #f07057;
+			text-shadow: rgba(0,0,0, 0.4) #f07057;
+		}
+
+		}
+}
+
+.btn-group {
+
+.btn-large {
+	color: #4b4c3e;
+	padding-left: 30px;
+	text-shadow: none;
+	border-color: none;
+	height: 85px;
+	background-color: inherit;
+	background-image: none;
+	background-repeat: no-repeat;
+	border: none;
+	position: relative;
+	box-shadow: none;
+}
+
+
+	.btn:focus {
+		outline-offset: 0;
+		}
+
+	.btn:hover {
+		color: #f07057;
+		text-shadow: none;
+		border-color: #fff;
+		background-image: none;
+		background-repeat: no-repeat;
+		border: none;
+		box-shadow: none;
+	}
+
+	.btn:visited {
+		color: #4b4c3e;
+		text-shadow: none;
+		border-color: #fff;
+		background-color: inherit;
+		background-image: none;
+		background-repeat: no-repeat;
+		border: none;
+		box-shadow: none;
+	}
+
+}
+
+.container-fill {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f2f2e8;
+	position: relative;
+	overflow: hidden;
+	z-index: 9;
+	padding: 0;
+	margin-top: 100px;	
+}
+
+.span12 {
+	margin: auto;
+	text-align: center;
+}
+
+//LEARNING 
+//------------
+span12 {
+	margin-top: 100px;
+}
+
+//GOOGLE MAPS
+//----------------
+iframe {
+	left: 0;
+	right: 0;
+	height: 650px;
+	margin-left: -10px;
+	margin-right: -20px;
+	position: relative;
+	z-index: -300;
+}
+

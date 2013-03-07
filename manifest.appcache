@@ -1,0 +1,57 @@
+CACHE MANIFEST
+
+# Time: Thu Mar 07 2013 11:35:53 GMT-0500 (EST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+../images/logo_white.png
+/images/620cbc59.32x32_twitter.png
+/images/661a2d1f.profile2.png
+/images/6c133793.profile1.png
+/images/book_cover/100e93a9.code-blue.jpg
+/images/book_cover/106d2bda.saving-rachel.jpg
+/images/book_cover/1b5247ae.hunger-game.jpg
+/images/book_cover/2320be80.tipping-point.jpg
+/images/book_cover/31dcb6a2.mice-men.jpg
+/images/book_cover/3d4e5f55.ways-seeing.jpg
+/images/book_cover/40120faa.thinking-with-type.jpg
+/images/book_cover/6b452650.recluse.jpg
+/images/book_cover/89f38ec5.web-standards.jpg
+/images/book_cover/9a3e9a1f.gone.jpg
+/images/book_cover/cb3a459c.falling-star.jpg
+/images/book_cover/db532369.mockingjay.jpg
+/images/c47164c5.32x32_rss.png
+/images/c980644a.profile3.png
+/images/d5de6ccb.32x32_facebook.png
+/styles/c8595bd4.font-awesome.min.css
+http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
+http://fonts.googleapis.com/css?family=Arvo:400,700
+http://fonts.googleapis.com/css?family=Asap:400,700
+http://localhost:3501/images/6cf0830f.background_2.png
+http://localhost:3501/styles/img/glyphicons-halflings-white.png
+http://localhost:3501/styles/img/glyphicons-halflings.png
+http://www.google-analytics.com/ga.js
+images/fc2ce1c8.logo_black.png
+scripts/8ab52a5b.plugins.js
+scripts/vendor/cf69c6f2.modernizr.min.js
+styles/422e32fa.main.css
+
+NETWORK:
+*
