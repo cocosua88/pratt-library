@@ -1,29 +1,34 @@
 /* COLOR SCEME   #f07057 #4b4c3e  #534A3E*/
-
 @import "compass_twitter_bootstrap";
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	font-size: 24px;
+	font-size: 1.5rem;
 }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
-	font-size: 18px;
+	font-size: 1.75rem;
+	.container {
+		width: 675px;
+	}
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-	font-size: 16px;
+	font-size: 1rem;
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	font-size: 13px;
+	font-size: 0.8125rem;
 }	
 
 //-------------------------------------------
 
+html {
+	font-size: 100%;
+}
 
 body {
 	background-color: #eeeeee;
@@ -45,15 +50,18 @@ hr {
 
 h4 {
 	font-family: 'Asap', sans-serif;
-	font-size: 1.8rem; 
+	font-size: 1.6rem; 
 	color: #f07057;
 	line-height: 3rem;
 }
 
-h5.title {
-	font-size: 1.4rem;
+h3 {
+	margin: 10px 10px 0 10px;
+	color: #fff;
+	font-family: 'Asap', sans-serif;
+	font-size: 1.8rem;
+	color: #fff;
 }
-
 p {
 	font-size: 1rem;
 	color: #444135;
@@ -100,7 +108,7 @@ p {
 	background-color: #eeeeee;
 	margin: -31px auto;
 	position: relative;
-	padding: 0;
+	padding-bottom: 40px;
 }
 
 .page-header {
@@ -176,23 +184,26 @@ p {
 }
 
 /* nav dropdown list*/
-.dropdown-menu.main,
 .dropdown-menu.main:after,
 .dropdown-menu.main:before {
-	padding: 0;
-	margin: 28px 0 0 -50px;
-	outline: none;
-	background-color: #fafafa;
-	border-left: none;
-	border-right: none;
-	border-bottom: 5px solid #f07057;
-	border-top: none;
-	box-shadow: none;
-	border-radius: 0;
+	display: none !important;
+}
+
+.dropdown-menu.main {
+    padding: 0;
+    margin: 28px 0 0 -50px;
+    outline: none;
+    background-color: #fafafa;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #f07057;
+    border-top: none;
+    box-shadow: none;
+    border-radius: 0;
 }
 
 .dropdown-menu.main a{
-	margin-left: -10px;
+    margin-left: 0;
 	font-size: 1.1rem;
 	font-family: 'Asap', sans-serif;
 	text-transform: uppercase;
@@ -244,6 +255,23 @@ p {
 	border: none;
 }
 
+.controls.button{
+	position: relative;
+
+	button.btn.signin {
+	margin: 10px 0 0 -40px;
+	border: none;
+	color: #fff;
+	text-shadow: none;
+	background-image: none;
+	background-color: #f07057;
+	box-shadow: none;
+	font-family: 'Asap', sans-serif;
+	}
+}
+
+
+
 a.btn.dropdown-toggle.sign-in,
 a.btn.dropdown-toggle.sign-in:hover,
 a.btn.dropdown-toggle.sign-in:visited {
@@ -293,16 +321,21 @@ ul.dropdown-menu.sign-in {
 
 .span4.learning {
 	text-align: center;
-	padding: 30px 30px 0 30px;
+	padding: 40px 30px 40px 30px;
+	float: left;
+	width: 280px;
 	margin-right: 20px;
-	width: 240px;
-	height: 370px;
-	margin-left: 0px;
+	margin-left: 20px;
+	height: 390px;
 }
 
 .span4.learning:hover {
 	background: #fafafa;
 	transition: background .20s ease-in-out;
+}
+
+.span4.learing:last-child {
+	float: right;
 }
 
 a.learning {
@@ -370,11 +403,12 @@ a.btn.learn-more:hover {
 //THEMES
 //---------------------------------------
 
-p.theme-content {
+.span3.themes {
 	font-size: 1rem;
 	line-height: 1.7rem;
 	text-align: left;
 }
+
 
 button.theme-button {
 	width: 250px;
@@ -417,8 +451,12 @@ button.theme-button:hover {
 iframe {
 	width: 100%;
 	height: 650px;
-	margin-left: 10px -20px 0 -5px;
+	marginheight: 0;
+	marginwidth: 0;
+	margin: 10px -20px -10px -5px;
 	position: relative;
+	frameborder: 0; 
+	scrolling: no; 
 }
 
 
@@ -428,6 +466,7 @@ iframe {
 footer {
 	width: 100%;
 	background-color: #8e8e8e;
+	padding: 40px 0;
 }
 
 .row.links-vertical {
@@ -479,22 +518,24 @@ a.social:hover {
 input.span3.subscription,
 input.span3.subscription:focus {
 	margin-top: 6px;
+	height: 30px;
 	outline-color: transparent;
 	outline-style: none;
 	box-shadow: none;
 	border: none;
 }
 
-
 button.btn.submit {
-	padding: 5px 5px;
 	border: none;
+	margin-top: 10px;
 	color: #fff;
+	font-size: 1rem;
+	text-align: center;
+	height: 40px;
 	text-shadow: none;
 	background-image: none;
 	background-color: #f07057;
 	box-shadow: none;
-	box-sizing: content-box;
 	font-family: 'Asap', sans-serif;
 }
 
@@ -506,5 +547,5 @@ button.btn.submit:hover{
 }
 
 .form.input-prepand {
-	height: 40px;
+	height: 80px;
 }

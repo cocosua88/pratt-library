@@ -41,77 +41,90 @@
     
     <!-- STICKY NAVBAR -->
     <div class="navbar" data-spy="affix" data-offset-top="460" data-offset="460">
-        <div class="navbar-inner">
-            <div class="container-fluid">
-                <a class="brand" href="#">
-                    <img src="images/logo_black.png" width= "40" height="40" alt="Enoch Pratt Free Library"/>
-                </a>
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="#">
+            <img src="images/logo_black.png" width= "40" height="40" alt="Enoch Pratt Free Library"/>
+          </a>
 
-                <ul class="nav site-nav">
-                    <li class="dropdown main">
-                        <a href="#" class="dropdown-toggle main" data-toggle="dropdown">
-                            <strong style="display: none;">Site Menu</strong>
-                            <span class="caret"></span>             
-                        </a>
-                        <ul class="dropdown-menu main">
-                            <li>
-                                <a href="#">Find Materials</a>
-                                <a href="#">Reseach &amp; Collections</a>
-                                <a href="#">Locations &amp; Hours</a>
-                                <a href="#">Events </a>
-                                <a href="#">Get Help</a>
-                                <a href="#">About Us</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+          <ul class="nav site-nav">
+            <li class="dropdown main">
+              <a href="#" class="dropdown-toggle main" data-toggle="dropdown">
+                <strong style="display: none;">Site Menu</strong>
+                <span class="caret"></span>             
+              </a>
+              <ul class="dropdown-menu main">
+                <li>
+                  <a href="#">Find Materials</a>
+                </li>
+                <li>
+                  <a href="#">Reseach &amp; Collections</a>
+                </li>
+                <li>
+                  <a href="#">Locations &amp; Hours</a>
+                </li>
+                <li>
+                  <a href="#">Events</a>
+                </li>
+                <li>
+                  <a href="#">Get Help</a>
+                </li>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
 
-                <form class="navbar-form pull-left" data-quick search>
-                    <input type="text" class="search-input span7" placeholder="Search the Catalog" autosave="some_unique_value" name="s" autofocus>
-                    <a href="#"><i class="icon-search icon-2x"></i></a>
-                </form>
-                
-                <div class="btn-group sign-in">
-                    <a class="btn dropdown-toggle sign-in" data-toggle="dropdown" href="#">
-                        Sign in    
-                        <span class="caret"></span>
-                    </a>
+          <form class="navbar-form pull-left" data-quick search>
+            <input type="text" class="search-input span7" placeholder="Search the Catalog" autofocus>
+            <a href="#"><i class="icon-search icon-2x"></i></a>
+          </form>
 
-                    <ul class="dropdown-menu sign-in">
-                        <li class="sign-in">
-                         <form class="form-horizontal signin">
-                          <div class="control-group">
-                            <label class="control-label" for="inputEmail"></label>
-                            <div class="controls">
-                              <input type="text" id="inputEmail" placeholder="Email">
-                          </div>
-                      </div>
-                      <div class="control-group">
-                        <label class="control-label" for="inputPassword"></label>
-                        <div class="controls">
-                          <input type="password" id="inputPassword" placeholder="Password">
-                      </div>
+          <div class="btn-group sign-in">
+            <a class="btn dropdown-toggle sign-in" data-toggle="dropdown" href="#">
+              Sign in    
+              <span class="caret"></span>
+            </a>
+
+            <ul class="dropdown-menu sign-in">
+              <li class="sign-in">
+               <form class="form-horizontal signin">
+
+                <div class="control-group">
+                  <label class="control-label" for="inputEmail">
+                  </label>
+                  <div class="controls">
+                    <input type="text" id="inputEmail" placeholder="Email">
                   </div>
-                  <div class="control-group">
-                    <div class="controls">
-                      <label class="checkbox">
-                        <input type="checkbox"> Remember me    
-                        <button type="submit" class="btn submit">Sign in</button>
-                    </label>
                 </div>
-            </div>
-        </form>
-    </li>    
-</ul> <!-- /.dropdown-menu -->
-</div> <!-- /.btn-group -->
-</div> <!-- /.container-fluid -->
-</div> <!-- /.navbar-inner -->
-</div> <!-- /.navbar -->
+                <div class="control-group">
+                  <label class="control-label" for="inputPassword">
+                  </label>
+                  <div class="controls">
+                    <input type="password" id="inputPassword" placeholder="Password">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="controls button">
+                    <label class="checkbox">
+                      <input type="checkbox"> Remember me 
+                    </label>
+                    <button type="submit" class="btn signin">Sign in</button>
+                  </div>
+                </div>
+              </form>
+            </li>    
+          </ul> <!-- /.dropdown-menu -->
+        </div> <!-- /.btn-group -->
+      </div> <!-- /.container-fluid -->
+    </div> <!-- /.navbar-inner -->
+  </div> <!-- /.navbar -->
 
 
 <div class="container-wrap">     
     <div class="container-fluid">
-        <div class="row">
+        <div class="row-fluid">
            <!-- ABOUT -->
            <div class="span12 description">
             <h4>Simple ways to learn and explore local community.</h4>
@@ -122,14 +135,14 @@
 
 
     <!-- LEARNING -->
-    <div class="row">
+    <div class="row-fluid">
         <div class="span12 description">
             <h4>Learn from local experts</h4>
             <p>Connect with librarians, teachers in your neighborhood.</p>
         </div> <!-- /.span12 -->
     </div>  <!--  /.row-fluid -->
 
-    <div class="row">
+    <div class="row-fluid">
         <div class="span4 learning">
             <img src="/images/profile3.png" class="profiles" alt="150x150" width= "140" height="140"/>
             <h5 class="learning"><a href="#" class="learning">Prepare for Tax Return</a></h5><br />
@@ -158,12 +171,13 @@
     <hr />
 
     <!-- REVIEWS -->
-    <div class="row">
+    <div class="row-fluid">
         <div class="span12 description">
             <h4>Find Recent Reviews</h4>
             <p>From librarians, critics to your close peers, find useful reviews on books and videos that you will enjoy next.</p>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="carousel slide" id="myCarousel">
@@ -172,46 +186,22 @@
                     <ul class="thumbnails">
                         <li class="span3 review">
                             <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/code-blue.jpg" width="180" height="280" alt=""></a>
+                                <a href="#"><img src="/images/book_cover/code-blue.jpg" class="review" width="180" height="280" alt=""></a>
                             </div>
                         </li>
                         <li class="span3 review">
                             <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/falling-star.jpg" width="180" height="280" alt=""></a>
+                                <a href="#"><img src="/images/book_cover/falling-star.jpg" class="review" width="180" height="280" alt=""></a>
                             </div>
                         </li>
                         <li class="span3 review">
                             <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/hunger-game.jpg" width="180" height="280" alt=""></a>
+                                <a href="#"><img src="/images/book_cover/hunger-game.jpg" class="review"  width="180" height="280" alt=""></a>
                             </div>
                         </li>
                         <li class="span3 review">
                             <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/mockingjay.jpg" width="180" height="280" alt=""></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <ul class="thumbnails">
-                        <li class="span3 review">
-                            <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/recluse.jpg" width="180" height="280" alt=""></a>
-                            </div>
-                        </li>
-                        <li class="span3 review">
-                            <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/saving-rachel.jpg" width="180" height="280" alt=""></a>
-                            </div>
-                        </li>
-                        <li class="span3 review">
-                            <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/tipping-point.jpg" width="180" height="280" alt=""></a>
-                            </div>
-                        </li>
-                        <li class="span3 review">
-                            <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/gone.jpg" width="180" height="280" alt=""></a>
+                                <a href="#"><img src="/images/book_cover/mockingjay.jpg" class="review" width="180" height="280" alt=""></a>
                             </div>
                         </li>
                     </ul>
@@ -220,22 +210,47 @@
                     <ul class="thumbnails">
                         <li class="span3 review">
                             <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/mice-men.jpg" width="180" height="280" alt=""></a>
+                                <a href="#"><img src="/images/book_cover/recluse.jpg" class="review" width="180" height="280" alt=""></a>
                             </div>
                         </li>
                         <li class="span3 review">
                             <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/thinking-with-type.jpg" width="180" height="280" alt=""></a>
+                                <a href="#"><img src="/images/book_cover/saving-rachel.jpg" class="review"  width="180" height="280" alt=""></a>
                             </div>
                         </li>
                         <li class="span3 review">
                             <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/ways-seeing.jpg" width="180" height="280" alt=""></a>
+                                <a href="#"><img src="/images/book_cover/tipping-point.jpg" class="review" width="180" height="280" alt=""></a>
                             </div>
                         </li>
                         <li class="span3 review">
                             <div class="thumbnail">
-                                <a href="#"><img src="/images/book_cover/web-standards.jpg" width="180" height="280" alt=""></a>
+                                <a href="#"><img src="/images/book_cover/gone.jpg" class="review" width="180" height="280" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul class="thumbnails">
+                        <li class="span3 review">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/images/book_cover/mice-men.jpg" class="review" width="180" height="280" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="span3 review">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/images/book_cover/thinking-with-type.jpg" class="review" width="180" height="280" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="span3 review">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/images/book_cover/ways-seeing.jpg" class="review" width="180" height="280" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="span3 review">
+                            <div class="thumbnail">
+                                <a href="#"><img src="/images/book_cover/web-standards.jpg" class="review" width="180" height="280" alt="" >
+    transition: 3s ease-in-out;"></a>
                             </div>
                         </li>
                     </ul>
@@ -249,84 +264,86 @@
 <hr />
 
 <!-- THEMES -->
-<div class="row">
-    <div class="span12 description">
-        <h4>Explore Themes</h4>
-        <p>Reading experience has become more open, and shareable recently with eBooks and social media. Explore popular themes and genre of the books.</p>
-    </div>
+<div class="row-fluid">
+  <div class="span12 description">
+    <h4>Explore Themes</h4>
+    <p>Reading experience has become more open, and shareable recently with eBooks and social media. Explore popular themes and genre of the books.</p>
+  </div>
 </div>
 
-<div class="row">
-    <div class="span12 description">
-        <div class="span3 themes">
-            <p class="theme-content">Not only you can search materials by title and format, you can explore what others find interesting.
-            </div>
-            <div class="span4 themes">
-                <button type="button" class="theme-button">Valentine's Day<i class="icon-chevron-right"></i></button>
-                <button type="button" class="theme-button">Easter<i class="icon-chevron-right"></i></button>
-                <button type="button" class="theme-button">Poetry<i class="icon-chevron-right"></i></button>
-            </div>
+<div class="row-fluid">
+  <div class="span12 description">
+    <div class="span3 themes">
+      <p class="theme-content">Not only you can search materials by title and format, you can explore what others find interesting.
+      </p>
+      </div> <!-- /.span3 -->
+      <div class="span4 themes">
+        <button type="button" class="theme-button">Valentine's Day<i class="icon-chevron-right"></i></button>
+        <button type="button" class="theme-button">Easter<i class="icon-chevron-right"></i></button>
+        <button type="button" class="theme-button">Poetry<i class="icon-chevron-right"></i></button>
+      </div>
 
-            <div class="span4 themes">
-                <button type="button" class="theme-button">Back to School<i class="icon-chevron-right"></i></button>
-                <button type="button" class="theme-button">Edgar Allen Poe<i class="icon-chevron-right"></i></button>
-                <button type="button" class="theme-button">Tax Return<i class="icon-chevron-right"></i></button>
-            </div>
-        </div><!-- /.span12 -->
-    </div> <!-- row -->
-</div>
+      <div class="span4 themes">
+        <button type="button" class="theme-button">Back to School<i class="icon-chevron-right"></i></button>
+        <button type="button" class="theme-button">Edgar Allen Poe<i class="icon-chevron-right"></i></button>
+        <button type="button" class="theme-button">Tax Return<i class="icon-chevron-right"></i></button>
+      </div> <!-- /.span4 themes -->
+    </div><!-- /.span12 -->
+  </div> <!-- row -->
+</div> <!-- /.container-fluid -->
+</div> <!-- /.container-wrap -->
+
 
 <!-- GOOGLE MAPS -->
-<div class="row">
-    <iframe frameborder="0"; scrolling= "no";
-    marginheight= "0"; marginwidth= "0"; src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Enoch+Pratt+Free+Library,+Cathedral+Street,+Baltimore,+MD&amp;aq=0&amp;oq=enoch+pratt+free&amp;sll=39.238934,-76.605327&amp;sspn=0.012315,0.028089&amp;ie=UTF8&amp;hq=Enoch+Pratt+Free+Library,+Cathedral+Street,+Baltimore,+MD&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=11141557049121447512&amp;ll=39.294567,-76.61722&amp;output=embed"></iframe>
-</div>
+<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Enoch+Pratt+Free+Library,+Cathedral+Street,+Baltimore,+MD&amp;aq=0&amp;oq=enoch+pratt+free&amp;sll=39.238934,-76.605327&amp;sspn=0.012315,0.028089&amp;ie=UTF8&amp;hq=Enoch+Pratt+Free+Library,+Cathedral+Street,+Baltimore,+MD&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=11141557049121447512&amp;ll=39.294567,-76.61722&amp;output=embed">
+</iframe>
 
 <!-- FOOTER -->
 <footer class="footer">
-    <div class="container-fluid">
-        <div class="row links-vertical">
-            <div class="span3 footer">
-                <h5 class="footer">About EPFL</h5>
-                <ul class="footer">
-                    <li class="footer"><a href="profile.html">Researve a Room</a></li>
-                    <li class="footer"><a href="#">Careers</a></li>
-                    <li class="footer"><a href="#">FAQ</a></li>
-                    <li class="footer"><a href="#">Contact Us</a></li>
-                </ul>
-            </div> <!-- /.span3 -->
-            <div class="span3 footer">
-                <h5  class="footer">Catalog</h5>
-                <ul class="footer">
-                    <li class="footer"><a href="#">Media Center</a></li>
-                    <li class="footer"><a href="#">eBooks &amp; Audiobooks</a></li>
-                    <li class="footer"><a href="#">Mobile Apps</a></li>
-                </ul>
-            </div> <!-- /.span3 -->
-            <div class="span3 footer">
-                <h5 class="footer">Terms &amp; Conditions</h5>
-                <ul class="footer">
-                    <li class="footer"><a href="#">Privacy Policy</a></li>
-                    <li class="footer"><a href="#">Rules &amp; Regulations</a></li>
-                    <li class="footer"><a href="#">Using the Internet</a></li>
-                </ul>
-            </div> <!-- /.span3 -->
-            <div class="span3 footer">
-                <h5 class="footer">Stay in touch with us</h5>
-                <form class="input-prepand">
-                    <input class="span3 subscription" type="text" placeholder="Your email address"><br />
-                    <button type="submit" class="btn submit">Submit</button>
-                </form>
-                <h5 class="footer">Follow Us</h5>
-                <div id="social-icons">
-                    <a href="https://twitter.com/" class="social"><img src="/images/32x32_twitter.png" width="48" height="48" alt="Twitter" />Twitter</a><br />
-                    <a href="http://feeds.feedburner.com/" class="social"><img src="/images/32x32_rss.png" width="48" height="48" alt="RSS" />RSS</a><br />
-                    <a href="http://www.facebook.com/"class="social"><img src="/images/32x32_facebook.png" width="48" height="48" alt="Facebook" />Facebook</a>
+  <div class="container-fluid">
+    <div class="row links-vertical">
+      <div class="span3 footer">
+        <h5 class="footer">About EPFL</h5>
+        <ul class="footer">
+          <li class="footer"><a href="profile.html">Researve a Room</a></li>
+          <li class="footer"><a href="#">Careers</a></li>
+          <li class="footer"><a href="#">FAQ</a></li>
+          <li class="footer"><a href="#">Contact Us</a></li>
+        </ul>
+      </div> <!-- /.span3 -->
+      <div class="span3 footer">
+        <h5  class="footer">Catalog</h5>
+        <ul class="footer">
+          <li class="footer"><a href="#">Media Center</a></li>
+          <li class="footer"><a href="#">eBooks &amp; Audiobooks</a></li>
+          <li class="footer"><a href="#">Mobile Apps</a></li>
+        </ul>
+      </div> <!-- /.span3 -->
+      <div class="span3 footer">
+        <h5 class="footer">Terms &amp; Conditions</h5>
+        <ul class="footer">
+          <li class="footer"><a href="#">Privacy Policy</a></li>
+          <li class="footer"><a href="#">Rules &amp; Regulations</a></li>
+          <li class="footer"><a href="#">Using the Internet</a></li>
+        </ul>
+      </div> <!-- /.span3 -->
+      <div class="span3 footer">
+        <h5 class="footer">Stay in touch with us</h5>
+        <form class="input-prepand">
+          <input class="span3 subscription" type="text" placeholder="Your email address"><br />
+          <button type="submit" class="btn submit">Submit</button>
+        </form>
+        <h5 class="footer">Follow Us</h5>
+        <div id="social-icons">
+          <a href="https://twitter.com/" class="social"><img src="/images/32x32_twitter.png" width="48" height="48" alt="Twitter" />Twitter</a><br />
+          <a href="http://feeds.feedburner.com/" class="social"><img src="/images/32x32_rss.png" width="48" height="48" alt="RSS" />RSS</a><br />
+          <a href="http://www.facebook.com/" class="social"><img src="/images/32x32_facebook.png" width="48" height="48" alt="Facebook" />Facebook</a>
 
-                </div>
-            </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
